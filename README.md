@@ -63,10 +63,6 @@ Choose `3` in the menu.
 - System opens webcam, detects faces, and shows **Name** + **Confidence (%)**  
 - Press `Q` to exit  
 
-
-## 📷 Demo
-- Recognition 
-
 ---
 
 ## 📝 Notes
