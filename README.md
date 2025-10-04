@@ -15,13 +15,15 @@ Workflow:
 ## ⚙️ Project Structure
 ```
 Face recognition/
+│── database/        # Collected face images
+│── cascades/        # Detecter
+│── trainer/        # Trained model file  
+│   │── trainer.yml          
 │── main.py          # Main menu
 │── collect.py       # Gathering face data of person and save to database
 │── train.py         # Train LBPH model
 │── recognize.py     # Real-time face recognition
-│── database/        # Collected face images
 │── labels.txt       # Mapping ID → Person name
-│── trainer.yml      # Trained model file
 │── requirements.txt 
 ```
 
@@ -53,7 +55,7 @@ Choose `1` from the menu to collect face data of person
 ### Train Model
 Choose `2` in the menu.  
 - Images from `database/` will be used to train LBPH  
-- Model is saved as `trainer.yml`  
+- Model is saved as `trainer/trainer.yml`  
 
 
 ### Face Recognition
