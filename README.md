@@ -17,7 +17,7 @@ Workflow:
 Face recognition/
 │── database/        # Collected face images
 │── cascades/        # Detecter
-│── trainer/        # Trained model file  
+│── trainer/         # Trained model file  
 │   │── trainer.yml          
 │── main.py          # Main menu
 │── collect.py       # Gathering face data of person and save to database
