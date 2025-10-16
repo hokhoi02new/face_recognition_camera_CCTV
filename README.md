@@ -33,8 +33,8 @@ Face recognition/
 ### Clone the repository
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/hokhoi02new/face_recognition_camera_CCTV.git
+cd face_recognition_camera_CCTV
 ```
 ### Install dependencies
 ```bash
